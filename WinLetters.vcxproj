@@ -147,17 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\letters\ownUtil.hpp" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="ownUtil.hpp" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WinLetters.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\letters\main.cpp" />
-    <ClCompile Include="..\letters\OwnUtil.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OwnUtil.cpp" />
     <ClCompile Include="WinLetters.cpp" />
   </ItemGroup>
   <ItemGroup>

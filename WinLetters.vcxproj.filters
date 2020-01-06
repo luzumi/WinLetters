@@ -27,7 +27,7 @@
     <ClInclude Include="WinLetters.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\letters\ownUtil.hpp">
+    <ClInclude Include="ownUtil.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,10 +35,10 @@
     <ClCompile Include="WinLetters.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\letters\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\letters\OwnUtil.cpp">
+    <ClCompile Include="OwnUtil.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
