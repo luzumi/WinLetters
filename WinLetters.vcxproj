@@ -155,7 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\letters\main.cpp" />
-    <ClCompile Include="..\letters\OwnUtil.cpp" />
+    <ClCompile Include="..\letters\OwnUtil.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="WinLetters.cpp" />
   </ItemGroup>
   <ItemGroup>
