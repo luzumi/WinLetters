@@ -147,12 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\letters\ownUtil.hpp" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WinLetters.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\letters\main.cpp" />
+    <ClCompile Include="..\letters\OwnUtil.cpp" />
     <ClCompile Include="WinLetters.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +164,9 @@
   <ItemGroup>
     <Image Include="small.ico" />
     <Image Include="WinLetters.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\letters\alleworter_klein.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
